@@ -1,0 +1,22 @@
+{
+    "name": "potter/container-interface",
+    "description": "PHP Container Interface",
+    "type": "library",
+    "require": {
+        "php": "^8.3",
+        "psr/container": "2.0.x-dev"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Potter\\Container\\": "src/Potter/Container/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jay Potter",
+            "email": "j@ypotter.ca"
+        }
+    ],
+    "minimum-stability": "dev"
+}
